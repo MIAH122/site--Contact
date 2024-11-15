@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    border: 8px solid white;
+}
+nav {
+    display: flex;
+}
+nav img{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+nav .menu{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+.menu p ,.option ,.font{
+    margin-left: 40px;
+}
+.option select{
+    border: 1px transparent ;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+    color: rgb(55, 54, 54);
+
+}
+.menu p{
+    font-size: 15px;
+    font-family: 'popiins',sans-serif;
+    color: rgb(55, 54, 54);
+}
+.fa-city{
+    font-size: 30px;
+    
+}
+p span{
+    text-decoration: 2px underline  rgb(236, 151, 73);
+    color: rgb(236, 151, 73);
+}
+h1{
+    height: 20vh;
+}
+.secton1{
+    text-align: center;
+    
+}
+.img{
+    float: left;
+}
+.soratra{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+input{
+    margin-left: 100px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.footer {
+    background-color: #1e3178;
+    color: white;
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.icon {
+    margin-right: 0.5rem;
+    color: #89bff3;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #89bff3;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #1e3178;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background-color: #89bff3;
+    color: white;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #5a73a8;
+    text-align: center;
+    font-size: 0.875rem;
+}
+.mt{
+    margin-top: 50px;
+}
